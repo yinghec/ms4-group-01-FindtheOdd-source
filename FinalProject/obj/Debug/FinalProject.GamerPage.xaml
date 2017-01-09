@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalProject.GamerPage"
+		BackgroundColor="Purple" >
+	<StackLayout>
+		<Label Text="PAGE2-1"/>
+	<Grid>
+  		<Grid.RowDefinitions>
+    		<RowDefinition Height="*" />
+    		<RowDefinition Height="*" />
+  		</Grid.RowDefinitions>
+  		<Grid.ColumnDefinitions>
+    		<ColumnDefinition Width="*" />
+    		<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="3*" />
+			<ColumnDefinition Width="3*" />
+  		</Grid.ColumnDefinitions>
+  		<Image x:Name="ResetImage" Grid.Row="0" Grid.Column="0"  VerticalOptions="Center" HorizontalOptions="Center" 
+			BackgroundColor="Purple" Aspect="AspectFit"> 
+			<Image.GestureRecognizers>
+ 				<TapGestureRecognizer Tapped="ResetTapped" />
+ 			</Image.GestureRecognizers>
+		</Image>
+  		<Label x:Name= "timer" Text="10s" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" 
+			Font="15"/>
+  		<Image x:Name="Image1" Grid.Row="0" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"  
+			BackgroundColor="Navy" >
+			<Image.GestureRecognizers>
+ 				<TapGestureRecognizer Tapped="ImageTapped" />
+ 			</Image.GestureRecognizers>
+		</Image>
+		<Image x:Name="Image2" Grid.Row="0" Grid.Column="3" VerticalOptions="Center" HorizontalOptions="Center"  
+			BackgroundColor="Navy">
+			<Image.GestureRecognizers>
+ 				<TapGestureRecognizer Tapped="ImageTapped" />
+ 			</Image.GestureRecognizers>
+		</Image>
+  		<Image x:Name="StartButton" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"  
+			BackgroundColor="Purple" Aspect="Fill" >
+			<Image.GestureRecognizers>
+ 				<TapGestureRecognizer Tapped="StartTapped" />
+ 			</Image.GestureRecognizers>
+		</Image>
+		<Switch x:Name="MusicSwitch" Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" 
+			Toggled="OnSwitchToggled"/>
+		<Image x:Name="Image3" Grid.Row="1" Grid.Column="2"  VerticalOptions="Center" HorizontalOptions="Center"  
+			BackgroundColor="Navy">
+			<Image.GestureRecognizers>
+ 				<TapGestureRecognizer Tapped="ImageTapped" />
+ 			</Image.GestureRecognizers>
+		</Image>
+		<Image x:Name="Image4" Grid.Row="1" Grid.Column="3"  VerticalOptions="Center" HorizontalOptions="Center" 
+			BackgroundColor="Navy">
+			<Image.GestureRecognizers>
+ 				<TapGestureRecognizer Tapped="ImageTapped" />
+ 			</Image.GestureRecognizers>
+		</Image>
+	</Grid>
+	</StackLayout>
+</ContentPage>

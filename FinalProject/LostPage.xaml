@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="FinalProject.LostPage"
+		BackgroundColor="Purple" >
+	<StackLayout>
+		<Label Text="Page3-2"/>
+		<Button x:Name="BackGame" Text="You LOST! Restart New Game." TextColor="Red" HorizontalOptions="Center" 
+			VerticalOptions="CenterAndExpand"/>
+	</StackLayout>
+</ContentPage>

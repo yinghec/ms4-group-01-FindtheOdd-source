@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="FinalProject.StartPage"
+		BackgroundColor="Purple">
+	<StackLayout>
+		<Label Text="PAGE 1-1" />
+		<Label Text="Game Difficulty:" HorizontalOptions="Center" TextColor="Yellow" FontSize="14" />
+		<StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+			<Button x:Name="Normal" Text="Normal" TextColor="Blue"
+			HorizontalOptions="StartAndExpand" BackgroundColor="Yellow" Clicked="NextPage"/>
+			<Button x:Name="Hard" Text="Hard" TextColor="Blue"
+			HorizontalOptions="CenterAndExpand" BackgroundColor="Yellow" Clicked="NextPage" />
+			<Button x:Name="Expert" Text="Expert" TextColor="Blue"
+			HorizontalOptions="EndAndExpand" BackgroundColor="Yellow" Clicked="NextPage" />
+		</StackLayout>
+	</StackLayout>
+</ContentPage>

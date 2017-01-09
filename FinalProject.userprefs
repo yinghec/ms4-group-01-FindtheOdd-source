@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{24529B1E-D208-49F1-BC8A-3702DED4E4A7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject/GamerPage.xaml.cs">
+    <Files>
+      <File FileName="Droid/MainActivity.cs" Line="14" Column="61" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="FinalProject/App.xaml.cs" Line="11" Column="30" />
+      <File FileName="FinalProject/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="FinalProject/IPlatformSound.cs" Line="7" Column="20" />
+      <File FileName="Droid/PlatformSound.cs" Line="66" Column="1" />
+      <File FileName="iOS/Services/AudioService.cs" Line="30" Column="7" />
+      <File FileName="Droid/packages.config" Line="1" Column="1" />
+      <File FileName="FinalProject/packages.config" Line="1" Column="1" />
+      <File FileName="iOS/Entitlements.plist" />
+      <File FileName="FinalProject/WinPage.xaml.cs" Line="13" Column="55" />
+      <File FileName="FinalProject/LostPage.xaml.cs" Line="16" Column="50" />
+      <File FileName="FinalProject/StartGame.xaml.cs" Line="16" Column="6" />
+      <File FileName="FinalProject/StartPage.xaml.cs" Line="12" Column="26" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.1-3/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="14" Column="54" />
+      <File FileName="FinalProject/GamerPage.xaml.cs" Line="161" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FinalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.829594B6-1D74-447E-915C-6748F2A45332" />
+  <MonoDevelop.Ide.ItemProperties.FinalProject.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/YC/Documents/Mobile Devlp/FinalProject/Droid/PlatformSound.cs" line="66" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
